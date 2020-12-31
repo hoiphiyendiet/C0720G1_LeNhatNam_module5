@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +10,8 @@ import { MaytinhComponent } from './03_tong_quan/baitap/maytinh/maytinh.componen
 import { HackernewsComponent } from './04_component_template/thuchanh/hackernews/hackernews.component';
 import {FormsModule} from '@angular/forms';
 import { LikesComponent } from './04_component_template/thuchanh/likes/likes.component';
-import { ChaConComponent } from './04_component_template/thuchanh/cha-con/cha-con.component';
+import { TodoComponent } from './06_form/thuchanh/todo/todo.component';
+import { ReactiveFormComponent } from './06_form/thuchanh/reactive-form/reactive-form.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ChaConComponent } from './04_component_template/thuchanh/cha-con/cha-co
     MaytinhComponent,
     HackernewsComponent,
     LikesComponent,
-    ChaConComponent
+    TodoComponent,
+    ReactiveFormComponent
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FormsModule
+        FormsModule,
+        ReactiveFormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,12 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project-angular';
-  Counter = 5;
-
-  increment() {
-    this.Counter++;
-  }
-  decrement() {
-    this.Counter--;
-  }
 }

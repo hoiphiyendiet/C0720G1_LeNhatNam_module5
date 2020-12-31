@@ -38,15 +38,15 @@ export class HackernewsComponent implements OnInit {
   }
 
   updateArticle() {
-    this.article.title = document.getElementById('article-title').value;
-    this.article.url = document.getElementById('article-url').value;
+    // this.article.title = document.getElementById('article-title').value;
+    // this.article.url = document.getElementById('article-url').value;
   }
   addArticle() {
-    this.articles.push(
-      {
-        title: document.getElementById('article-title').value,
-        url: document.getElementById('article-url').value
-      }
-    );
+    // this.articles.push(
+    //   {
+    //     title: document.getElementById('article-title').value,
+    //     url: document.getElementById('article-url').value
+    //   }
+    // );
   }
 }
